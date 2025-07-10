@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Real-Time Trading System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 style=color:white;>📈 Real-Time Trading Dashboard</h1>
+
+    <div class="price-feed">
+      <h2>Current Stock Price: <span id="price">Loading...</span></h2>
+    </div>
+
+    <div class="order-form">
+      <h3 style=color:GOLD;>Place Order</h3>
+      <form id="orderForm">
+        <select id="orderType">
+          <option value="buy">Buy</option>
+          <option value="sell">Sell</option>
+        </select>
+        <input type="number" id="quantity" placeholder="Quantity" required>
+        <button type="submit">Place Order</button>
+      </form>
+    </div>
+
+    <div class="orders">
+      <h3 style=color:#00FF00;>Order Execution Log</h3>
+      <ul id="orderLog"></ul>
+    </div>
+  </div>
+<center>
+  <marquee direction="right" scrollamount="8">
+    <img src="Stock.gif" alt="Scrolling Image" height="200" width="1000">
+  </marquee>
+</center>
+  <script src="script.js"></script>
+</body>
+</html>

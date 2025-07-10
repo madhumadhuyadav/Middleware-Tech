@@ -1,0 +1,73 @@
+body {
+  background-image: url('Bits.jpg'); 
+  background-size: cover;                  
+  background-position: center;             
+  background-repeat: no-repeat;            
+  height: 100vh;                            
+  margin: 0;
+  padding: 0;
+}
+{
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  height: 400px;
+  margin: 30px auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.price-feed {
+  background: #e3f2fd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.order-form {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+input, select, button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1976d2;
+}
+
+.orders ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.orders li {
+  background: #f1f8e9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
